@@ -1,0 +1,38 @@
+{
+  "name": "Insta360 MR Research",
+  "short_name": "Insta360 MR",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#f8f9fa",
+  "theme_color": "#6e48aa",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "xr_overrides": [
+    {
+      "output_mode": "ar",
+      "ar_depth_sensing": "required",
+      "ar_scaling": "single-scale"
+    },
+    {
+      "output_mode": "vr",
+      "vr_views": "mono"
+    }
+  ],
+  "features": [
+    "cross-origin-isolated",
+    "webxr",
+    "gamepad",
+    "geolocation"
+  ]
+}
